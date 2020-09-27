@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+			integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+			integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Bootstrap Theme</title>
+	</head>
+
+	<body>
+		<!-- START HERE -->
+		<div class="container">
+			<header id="main-header">
+				<div class="row no-gutters">
+					<div class="me-picture col-lg-4 col-md-5">
+						<img class="img-fluid" src="me.jpg" alt="" />
+					</div>
+
+					<div class="col-lg-8 col-md-7">
+						<div class="d-flex flex-column">
+							<div class="p-5 bg-dark text-white">
+								<div
+									class="d-flex flex-row justify-content-between align-item-center"
+								>
+									<h1 class="display-4">Cat-Tuong Tu</h1>
+									<div class="d-none d-md-block"></div>
+									<div>
+										<a
+											href="https://www.linkedin.com/in/cat-tuong-tu-b4b0b5177/"
+											class="text-white"
+											target="_blank"
+										>
+											<i class="fab fa-linkedin"></i>
+										</a>
+									</div>
+									<div>
+										<a
+											href="https://github.com/cattuongtu/"
+											class="text-white"
+											target="_blank"
+										>
+											<i class="fab fa-github"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="p-4 bg-black">
+								Computer Science Student at San Diego State
+								University
+							</div>
+
+							<div>
+								<div
+									class="d-flex flex-row text-white align-items-stretch text-center"
+								>
+									<div
+										class="port-item p-4 bg-danger"
+										data-toggle="collapse"
+										data-target="#home"
+									>
+										<i
+											class="fas fa-home fa-2x d-block"
+										></i>
+										<span class="d-none d-sm-block"
+											>Home</span
+										>
+									</div>
+
+									<div
+										class="port-item p-4 bg-dark"
+										data-toggle="collapse"
+										data-target="#resume"
+									>
+										<i
+											class="fas fa-graduation-cap fa-2x d-block"
+										></i>
+										<span class="d-none d-sm-block"
+											>Resume</span
+										>
+									</div>
+
+									<div
+										class="port-item p-4 bg-secondary"
+										data-toggle="collapse"
+										data-target="#work"
+									>
+										<i
+											class="fas fa-folder-open fa-2x d-block"
+										></i>
+										<span class="d-none d-sm-block"
+											>Projects</span
+										>
+									</div>
+
+									<div
+										class="port-item p-4 bg-light text-dark"
+										data-toggle="collapse"
+										data-target="#contact"
+									>
+										<i
+											class="fas fa-envelope fa-2x d-block"
+										></i>
+										<span class="d-none d-sm-block"
+											>Contact</span
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- HOME -->
+			<div id="home" class="collapse show">
+				<div
+					class="card card-body bg-danger text-white py-5"
+				>
+					<h2>Welcome To My Page</h2>
+					<p class="lead">
+						Thank you for taking the time to look at my
+						personal portfolio!
+					</p>
+				</div>
+
+				<div class="card card-body py-5">
+					<h3>About Me</h3>
+					<p>
+						I am a 3rd year student at San Diego State
+						University majoring in Computer Science. My
+						primary interests and pursuits in the field are
+						full-stack web development using JavaScript
+						libraries and learning how to build scalable
+						applications that will greatly benefit users.
+					</p>
+
+					<h3>Hobbies and Interests</h3>
+					<p>
+						Basketball, tennis, dance, swimming, video
+						games, anime, and strength training.
+					</p>
+				</div>
+			</div>
+
+			<!-- RESUME -->
+
+			<div id="resume" class="collapse">
+				<div class="card card-body bg-dark text-white py-5">
+					<h2>My Resume</h2>
+				</div>
+
+				<div
+					style="height: 1150px"
+					class="resume bg-light text-dark"
+				>
+					<embed
+						src="my-resume.pdf"
+						width="100%"
+						height="100%"
+					/>
+				</div>
+			</div>
+
+			<!-- WORK -->
+			<div id="work" class="collapse">
+				<div
+					class="card card-body bg-secondary text-white py-5"
+				>
+					<h2>My Projects</h2>
+				</div>
+
+				<div class="card card-body py-5">
+					<h3>What Have I Built?</h3>
+
+					<div class="row">
+						<div class="col-md-6 card">
+							<a
+								href="pdfreadingpacer.jpg"
+								data-toggle="lightbox"
+							>
+								<img
+									src="pdfreadingpacer.jpg"
+									alt=""
+									class="img-fluid"
+								/>
+							</a>
+							<div class="card-body">
+								<h4 class="card-title">
+									PDF Reading Pacer
+								</h4>
+								<p class="card-text">
+									Developed a reading pacer web application
+									with JavaScript, HTML, CSS, and Bootstrap
+									to help users improve their reading speed
+									and/or keep focus while reading.
+								</p>
+							</div>
+							<div class="btn-container mb-3">
+								<a
+									class="btn btn-dark"
+									href="https://github.com/cattuongtu/pdf-reading-pacer/"
+									target="_blank"
+									><i class="fab fa-github"></i> GitHub
+									Repository</a
+								>
+								<a
+									class="btn btn-dark"
+									href="https://cattuongtu.github.io/pdf-reading-pacer/"
+									target="_blank"
+								>
+									Go to Page
+									<i class="fas fa-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+
+						<div class="col-md-6 card">
+							<a
+								href="weatherplease.jpg"
+								data-toggle="lightbox"
+							>
+								<img
+									src="weatherplease.jpg"
+									alt=""
+									class="img-fluid"
+								/>
+							</a>
+							<div class="card-body">
+								<h4 class="card-title">Weather Forecast</h4>
+								<p class="card-text">
+									Created a Weather Forecast app that makes
+									API calls to the MetaWeather API and
+									displays the weather data of the user's
+									desired location onto the webpage.
+								</p>
+							</div>
+
+							<div class="btn-container mb-3">
+								<a
+									class="btn btn-dark"
+									href="https://github.com/cattuongtu/weather-please/"
+									target="_blank"
+									><i class="fab fa-github"></i> GitHub
+									Repository</a
+								>
+								<a
+									class="btn btn-dark"
+									href="https://cattuongtu.github.io/weather-please/"
+									target="_blank"
+								>
+									Go to Page
+									<i class="fas fa-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- CONTACT -->
+			<div class="collapse" id="contact">
+				<div class="card card-body bg-light text-dark py-5">
+					<h2>Contact Me</h2>
+				</div>
+
+				<div id="contact-card" class="card card-body py-5">
+					<h3>Get In Touch</h3>
+					<p>
+						If you would like to contact me you can email me
+						at
+						<strong>cattuongtu3@gmail.com</strong>
+						and I will reply within 48 hours. Otherwise, you
+						could also reach out to me through LinkedIn or
+						Handshake. Feel free to check out my GitHub or
+						LinkedIn profile if you would like!
+					</p>
+					<a
+						class="btn btn-dark btn-block"
+						href="https://github.com/cattuongtu"
+						target="_blank"
+					>
+						<i class="fab fa-github"></i> GitHub Profile
+					</a>
+					<a
+						class="btn btn-dark btn-block"
+						href="https://www.linkedin.com/in/cat-tuong-tu-b4b0b5177/"
+						target="_blank"
+					>
+						<i class="fab fa-linkedin"></i> LinkedIn Profile
+					</a>
+				</div>
+			</div>
+
+			<!-- FOOTER -->
+			<footer
+				id="main-footer"
+				class="p-5 bg-dark text-white"
+			>
+				<div class="row">
+					<div class="col-md-6">
+						<a
+							href=""
+							id="download-btn"
+							class="btn btn-outline-light"
+						>
+							<i class="fas fa-cloud"></i> Download Resume
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="script.js"></script>
+		<script
+			src="http://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+			integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+			integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+			integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+			crossorigin="anonymous"
+		></script>
+		<script>
+			$(".port-item").click(function () {
+				$(".collapse").collapse("hide");
+			});
+
+			$(document).on(
+				"click",
+				'[data-toggle="lightbox"]',
+				function (e) {
+					e.preventDefault();
+					$(this).ekkoLightbox();
+				}
+			);
+		</script>
+	</body>
+</html>
